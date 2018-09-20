@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>$id$</id>
+    <id>D7.$id$</id>
     <version>$version$</version>
     <description>$description$</description>
     <authors>Konstantin Babiy and contributors</authors>
-    <title>$id$</title>
-    <licenseUrl>https://github.com/kbabiy/LogCast/blob/master/LICENSE.md</licenseUrl>
-    <projectUrl>https://github.com/kbabiy/LogCast</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/kbabiy/LogCast/master/logo.png</iconUrl>
+    <title>D7.$id$</title>
+    <licenseUrl>https://github.com/7digital/LogCast/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/7digital/LogCast</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/7digital/LogCast/master/logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>
       <dependency id="LogCast" version="$version$" />
