@@ -12,30 +12,39 @@
   <ItemGroup>
     <Project Include="LogCast">
       <Flavour>NuGet</Flavour>
+	  <NuGetId>D7.LogCast</NuGetId>
     </Project>
     <Project Include="LogCast.NLog">
       <Flavour>NuGet</Flavour>
+	  <NuGetId>D7.LogCast.NLog</NuGetId>
     </Project>
     <Project Include="LogCast.Wcf">
       <Flavour>NuGet</Flavour>
+	  <NuGetId>D7.LogCast.Wcf</NuGetId>
     </Project>
     <Project Include="LogCast.WebApi">
       <Flavour>NuGet</Flavour>
+	  <NuGetId>D7.LogCast.WebApi</NuGetId>
     </Project>
     <Project Include="LogCast.Mvc">
       <Flavour>NuGet</Flavour>
+	  <NuGetId>D7.LogCast.Mvc</NuGetId>
     </Project>
     <Project Include="LogCast.Owin">
       <Flavour>NuGet</Flavour>
+	  <NuGetId>D7.LogCast.Owin</NuGetId>
     </Project>
     <Project Include="LogCast.AspNetCore">
       <Flavour>NuGet</Flavour>
+	  <NuGetId>D7.LogCast.AspNetCore</NuGetId>
     </Project>
     <Project Include="LogCast.Tracing">
       <Flavour>NuGet</Flavour>
+	  <NuGetId>D7.LogCast.Tracing</NuGetId>
     </Project>
     <Project Include="LogCast.Http">
       <Flavour>NuGet</Flavour>
+	  <NuGetId>D7.LogCast.Http</NuGetId>
     </Project>
   </ItemGroup>
 
