@@ -1,0 +1,50 @@
+<Project DefaultTargets="All" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ArtifactSolution>LogCast</ArtifactSolution>
+	<ArtifactCompany>7digital</ArtifactCompany>
+	<ArtifactCopyright>Copyright (c) 2016 7digital</ArtifactCopyright>
+	<ArtifactProjectUrl>https://github.com/7digital/LogCast</ArtifactProjectUrl
+    <MajorVersion>1</MajorVersion>
+    <MinorVersion>0</MinorVersion>
+    <ArtifactCopyright>Copyright $(ArtifactCompany) 2016</ArtifactCopyright>
+    <ArtifactDescription>Shared logging</ArtifactDescription>
+  </PropertyGroup>
+  <ItemGroup>
+    <Project Include="LogCast">
+      <Flavour>NuGet</Flavour>
+    </Project>
+    <Project Include="LogCast.NLog">
+      <Flavour>NuGet</Flavour>
+    </Project>
+    <Project Include="LogCast.Wcf">
+      <Flavour>NuGet</Flavour>
+    </Project>
+    <Project Include="LogCast.WebApi">
+      <Flavour>NuGet</Flavour>
+    </Project>
+    <Project Include="LogCast.Mvc">
+      <Flavour>NuGet</Flavour>
+    </Project>
+    <Project Include="LogCast.Owin">
+      <Flavour>NuGet</Flavour>
+    </Project>
+    <Project Include="LogCast.AspNetCore">
+      <Flavour>NuGet</Flavour>
+    </Project>
+    <Project Include="LogCast.Tracing">
+      <Flavour>NuGet</Flavour>
+    </Project>
+    <Project Include="LogCast.Http">
+      <Flavour>NuGet</Flavour>
+    </Project>
+  </ItemGroup>
+
+  <Import Project="$(Pantry)\E247.Build.Solution.targets"/>
+  <Import Project="$(Pantry)\.build\E247.Build.TeamCity.targets" />
+
+  <!--
+  <PropertyGroup>
+    <TestDependsOn Condition=" '$(INSPECTCODE)' != '' ">$(TestDependsOn);RunInspectCode</TestDependsOn>
+  </PropertyGroup>  
+  -->
+</Project>
