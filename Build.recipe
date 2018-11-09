@@ -3,7 +3,7 @@
     <ArtifactSolution>LogCast</ArtifactSolution>
 	<ArtifactCompany>7digital</ArtifactCompany>
 	<ArtifactCopyright>Copyright (c) 2016 7digital</ArtifactCopyright>
-	<ArtifactProjectUrl>https://github.com/7digital/LogCast</ArtifactProjectUrl
+	<ArtifactProjectUrl>https://github.com/7digital/LogCast</ArtifactProjectUrl>
     <MajorVersion>1</MajorVersion>
     <MinorVersion>0</MinorVersion>
     <ArtifactCopyright>Copyright $(ArtifactCompany) 2016</ArtifactCopyright>
